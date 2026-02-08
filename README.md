@@ -57,7 +57,9 @@ pip install torch transformers accelerate
 
 ## How to Run
 
-1. Place all files in one directory. 2. Ensure you have access to the "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B" model.
+1. Place all files in one directory. 
+
+2. Ensure you have access to the "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B" model.
 
 3. Run:
 Bash
