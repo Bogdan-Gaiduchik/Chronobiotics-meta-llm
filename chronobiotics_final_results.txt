@@ -1,0 +1,264 @@
+CHRONOBIOTICSDB META-PROMPTING FINAL RESULTS
+Date: 2025-12-24 14:51:41
+Model: deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+Cards: 340, Links: 1489
+================================================================================
+
+
+============================================================
+QUESTION 1
+============================================================
+Q: What is the mechanism of action of Resveratrol?
+Relevant cards: ['Resveratrol', 'Oxycodone', 'Oxiconazole Nitrate', 'AZD-0284e', 'Theophylline', 'Aminophylline']
+
+RESPONSE (176 tokens, 30.74s):
+Answer: Resveratrol can influence the expression of key clock genes like CLOCK, BMAL1, PER, and CRY. Its mechanisms involve repression of PER/CRY feedback loops via deacetylation, involving SIRT1 and Serine/threonine-protein kinase mTOR, suppressing mTOR signaling via the AMPK-PP2A axis, and potentially altering circadian metabolism through the SIRT1-AMPK-PP2A Axis.
+
+Sources: [Card ID: 6]
+
+Data Completeness: Information available from Card ID: 6 covers the influence on clock genes (CLOCK, BMAL1, PER, CRY), the mechanism of repression via deacetylation, the involvement of SIRT1 and mTOR pathways, and the suppression of mTOR signaling via the AMPK-PP2A axis leading to altered circadian metabolism.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 360
+
+
+============================================================
+QUESTION 2
+============================================================
+Q: What is the FDA status of Ramelteon?
+Relevant cards: ['Ramelteon', 'Vanillic Acid']
+
+RESPONSE (54 tokens, 33.2s):
+Answer: Approved
+Sources: [Card ID: 10]
+Data Completeness: FDA status is available from Card ID: 10. Other attributes including description, effects, mechanisms, targets, and articles are also provided in the same card.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 8
+
+
+============================================================
+QUESTION 3
+============================================================
+Q: List the classes of substances to which Rosiglitazone belongs.
+Relevant cards: ['Rosiglitazone', 'Li (Lithium Carbonate)', 'Piromelatine', 'Resveratrol', 'Ramelteon', 'Agomelatine']
+
+RESPONSE (26 tokens, 7.94s):
+Answer: chronobiotic
+Sources: [Card ID: 7]
+Data Completeness: Found one record containing the class(es).
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 12
+
+
+============================================================
+QUESTION 4
+============================================================
+Q: What effects does Melatonin have on circadian rhythms?
+Relevant cards: ['Melatonin', 'Melatonin-d4', '2-Iodomelatonin', 'Melatonin-d3', 'Melatonin receptor agonist 1', '2‐(indolin‐1yl)‐melatonin']
+
+RESPONSE (90 tokens, 18.14s):
+Answer: Restores normal circadian rhythms and induces phase shift in mammals via MT1/MT2 receptor agonism.
+Sources: [Card ID: 8], [Card ID: 17], [Card ID: 18]
+Data Completeness: Effects mentioned in Card ID: 8 (restores normal circadian rhythms). Effects mentioned in Card ID: 17 (Phase shift induction). Effects mentioned in Card ID: 18 (Phase shift induction).
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 98
+
+
+============================================================
+QUESTION 5
+============================================================
+Q: What targets are associated with Luzindole?
+Relevant cards: ['Indole', 'Luzindole', 'TMP778', 'Agomelatine hydrochloride', 'TIK-301', 'SR1555']
+
+RESPONSE (25 tokens, 8.02s):
+Answer: Melatonin receptor
+Sources: [Card ID: 11]
+Data Completeness: Target identified in Card ID: 11
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 18
+
+
+============================================================
+QUESTION 6
+============================================================
+Q: Name at least one article related to Agomelatine.
+Relevant cards: ['Agomelatine', 'S24014', 'T0901317', 'Lincomycin', 'Rifampin', 'Asenapine']
+
+RESPONSE (166 tokens, 16.57s):
+Answer: Souza, L.C., Martynhak, B.J., Bassani, T.B., Turnes, J.D.M., Machado, M.M., Moura, E., Andreatini, R. and Vital, M.A., 2018. Agomelatine's effect on circadian locomotor rhythm alteration and depressive-like behavior in 6-OHDA lesioned rats. Physiology & Behavior, 188, pp.298-310. AND Pandi-Perumal, S.R., Moscovitch, A., Srinivasan, V., Spence, D.W., Cardinali, D.P. and Brown, G.M., 2009. Bidirectional communication between sleep and circadian rhythms and its implications for depression: lessons from agomelatine. Progress in Neurobiology, 88(4), pp.264–271.
+
+Sources: [Card ID: 13]
+
+Data Completeness: Article names and links identified from Card ID: 13
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 562
+
+
+============================================================
+QUESTION 7
+============================================================
+Q: What is described about the action of 5-MCA-NAT in the database?
+Relevant cards: ['5-MCA-NAT', 'Cyproterone', 'Resveratrol', 'Agomelatine', 'Agomelatine hydrochloride', 'Ramelteon metabolite M-II-d3']
+
+RESPONSE (77 tokens, 10.52s):
+Answer: According to the description, 5-MCA-NAT acts as a melatonin receptor agonist and specifically targets the MT3 receptor.
+Sources: [Card ID: 15]
+Data Completeness: Information extracted directly from Card ID: 15 regarding its classification ("Классы"), effects ("Эффекты"), and mechanisms ("Механизмы").
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 119
+
+
+============================================================
+QUESTION 8
+============================================================
+Q: What is known about the substance Xylonate?
+Relevant cards: ['4-P-PDOT (N-(4-phenyl-1,2,3,4-tetrahydronaphthalen-2-yl)propanamide)', '5-MCA-NAT', 'Piromelatine', 'S24014', 'Cannabigerol', 'Cannabichromenes']
+
+RESPONSE (31 tokens, 15.35s):
+Answer: Data not found in ChronobioticsDB  
+Sources: None  
+Data Completeness: No information available in the provided cards.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: True
+  proper_format: True
+  answer_length: 33
+
+
+============================================================
+QUESTION 9
+============================================================
+Q: What are the effects of Chronobrainol?
+Relevant cards: ['Indole', 'Ramelteon', 'Luzindole', '5-MCA-NAT', 'Piromelatine', 'Ramelteon metabolite M-II-d3']
+
+RESPONSE (31 tokens, 12.37s):
+Answer: Data not found in ChronobioticsDB  
+Sources: None  
+Data Completeness: No information available in the provided cards.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: True
+  proper_format: True
+  answer_length: 33
+
+
+============================================================
+QUESTION 10
+============================================================
+Q: Does the database contain information about Neurophase?
+Relevant cards: ['Oxymorphone', 'Sulpiride', 'Loprazolam', 'Berberine Chloride', 'Cyproterone', 'Nelfinavir mesylate']
+
+RESPONSE (39 tokens, 11.38s):
+Answer: Data not found in ChronobioticsDB regarding substance 'Neurophase'.
+Sources: None
+Data Completeness: No information available in the provided cards.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: True
+  proper_format: True
+  answer_length: 67
+
+
+============================================================
+QUESTION 11
+============================================================
+Q: Compare the mechanisms of Resveratrol and Rosiglitazone.
+Relevant cards: ['Resveratrol', 'Rosiglitazone', 'Li (Lithium Carbonate)']
+
+RESPONSE (209 tokens, 55.5s):
+Answer: Resveratrol exerts its chronobiotic effects through repression of PER/CRY feedback loops via deacetylation and by altering circadian metabolism via the SIRT1-AMPK-PP2A axis, resulting in mTOR signaling inhibition and advancement of circadian phase in muscle. Rosiglitazone functions as a chronobiotic by shifting circadian phases and restoring normal circadian rhythms, primarily through protection and alteration of core clock gene expression like BMAL1 and CLOCK.
+
+Sources: [Card ID: 6], [Card ID: 7]
+
+Data Completeness: Available information specifies Resveratrol's mechanisms (repression of PER/CRY via deacetylation, SIRT1-AMPK-PP2A axis, mTOR inhibition). Rosiglitazone's mechanisms are stated as shifting phases and restoring rhythms via altering clock gene expression. Both cards classify the compounds as chronobiotics.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 465
+
+
+============================================================
+QUESTION 12
+============================================================
+Q: List all FDA approved substances in ChronobioticsDB.
+Relevant cards: ['Li (Lithium Carbonate)', 'Piromelatine', 'Resveratrol', 'Rosiglitazone', 'Melatonin', 'Indole']
+
+RESPONSE (72 tokens, 19.5s):
+Answer: Lithium Carbonate, Resveratrol, Rosiglitazone, Melatonin
+Sources: [Card ID: 258], [Card ID: 6], [Card ID: 7], [Card ID: 8]
+Data Completeness: Listed all FDA-approved substances (Lithium Carbonate, Resveratrol, Rosiglitazone, Melatonin) found in the provided ChronobioticsDB cards.
+
+QUALITY CHECK:
+  is_in_english: True
+  has_card_references: False
+  has_links: False
+  no_reasoning_tags: True
+  mentions_limitations: False
+  proper_format: True
+  answer_length: 56
+

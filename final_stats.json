@@ -1,0 +1,30 @@
+{
+  "test_info": {
+    "date": "2025-12-24T14:55:51.411819",
+    "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "architecture": "two_step_meta_prompting_with_postprocessing"
+  },
+  "database": {
+    "total_cards": 340,
+    "total_links": 1489,
+    "sample_card": "Resveratrol"
+  },
+  "parameters": {
+    "meta_temperature": 0.3,
+    "executor_temperature": 0.1,
+    "max_tokens": 6000,
+    "post_processing": "enabled"
+  },
+  "results": {
+    "total": 12,
+    "successful": 12,
+    "avg_tokens": 83.0,
+    "quality": {
+      "english_only": 12,
+      "has_refs": 0,
+      "no_reasoning": 12,
+      "proper_format": 12,
+      "mentions_limits": 3
+    }
+  }
+}

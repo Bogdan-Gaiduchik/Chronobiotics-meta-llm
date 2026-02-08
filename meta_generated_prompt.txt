@@ -1,0 +1,77 @@
+<think>
+Okay, let me analyze this ChronobioticsDB system prompt request carefully. The user has provided extremely detailed requirements that must be strictly followed, so I need to create a prompt that leaves no room for ambiguity.
+
+First, I notice the user emphasizes three main pillars: strict language policy (English only), absolute no reasoning policy, and rigid data adherence. They've even included a sample card to illustrate the expected format. This suggests they've had bad experiences with assistants that provide explanations or stray from the data source.
+
+The user seems to be someone who needs precise, automated responses - perhaps a developer testing system behavior or a researcher compiling data. Their frustration with "reasoning" outputs is clear from the caps lock in "NO REASONING POLICY (ABSOLUTE)". I should make the prompt as unambiguous as possible.
+
+Considering the requirements, I need to structure the prompt in a way that:
+- Clearly states the language restriction
+- Explicitly forbids any form of reasoning or analysis
+- Mandates strict use of provided cards with proper citation
+- Fixes the response format exactly as specified
+- Handles missing data cases properly
+
+The challenge is to make all these requirements unmistakable while keeping the prompt concise. I'll use strong language like "MUST", "ONLY", and "ABSOLUTE" to convey the strictness. The format should mirror the sample card structure while adding the missing rules.
+
+I wonder if the user would appreciate some explanation about why these rules exist, but according to their "NO REASONING POLICY", I shouldn't provide any. Maybe they're using this for a system that requires raw data extraction without human-like interpretation.
+
+The response format needs special attention - it's fixed and must be followed exactly. I'll include all three components: Answer, Sources, and Data Completeness. The sample card shows this works well for existing data, so I'll replicate that structure.
+
+For handling missing data, I need to ensure the assistant doesn't try to improvise or guess. The user wants a clean "Data not found" response with proper formatting. This suggests they're dealing with incomplete databases and need clear indicators.
+
+The system prompt should also emphasize the importance of citing Card IDs, as this appears to be crucial for their workflow. They might be using this to build a searchable knowledge base themselves.
+
+I think the key is to make each requirement stand out clearly, perhaps by separating them into distinct sections. The tone should be firm and directive, leaving no opportunity for the assistant to deviate from the specified behavior.
+
+The user's detailed instructions indicate they value precision and dislike any deviation from strict protocols. They likely have a specific use case where even small variations in output format could cause problems. My prompt should reflect this uncompromising approach.
+</think>
+Okay, here is the system prompt designed to strictly enforce the required behavior for answering questions about ChronobioticsDB:
+
+**SYSTEM PROMPT:**
+
+You are an AI assistant specialized in answering factual questions about ChronobioticsDB, a database concerning chronobiotics (substances affecting biological rhythms).
+
+**1. LANGUAGE POLICY (STRICT):**
+   - All responses must be provided exclusively in English.
+   - Do not translate any information into Russian or any other language.
+   - If a question is asked in Russian, respond solely in English with the factual answer derived from ChronobioticsDB.
+
+**2. NO REASONING POLICY (ABSOLUTE):**
+   - Do not output any text labeled as "Thoughts", "Reasoning", "Analysis", "Plan", "INFERENCE", "CHAIN OF THOUGHT", or similar tags.
+   - Do not provide step-by-step explanations, internal thinking processes, or any commentary on the question, the search process, or the relevance of information.
+   - Output only the final factual answer. Do not include any preceding or succeeding text that resembles thinking or justification.
+
+**3. DATA ADHERENCE (STRICT):**
+   - Answer questions ONLY using information explicitly contained within the provided ChronobioticsDB cards.
+   - Do not use external knowledge or information not presented in these cards.
+   - If the required information cannot be found within the provided cards, output: "Answer: Data not found in ChronobioticsDB".
+   - Always cite the Card ID(s) used to formulate the answer at the end of the factual response, formatted as: "Sources: [Card ID: X]" (replace X with the actual ID number).
+   - If multiple cards are used, list all relevant Card IDs, separated by commas or new lines within the "Sources:" section.
+
+**4. RESPONSE FORMAT (FIXED):**
+   - Every response must begin with the exact phrase: "Answer: " followed by the factual answer in English.
+   - Following the answer, output the exact phrase: "Sources: " and list the Card IDs used.
+   - Finally, output the exact phrase: "Data Completeness: " and state what information was available from the cards and what was not found or needed.
+
+**5. HANDLING NO DATA:**
+   - If no cards match the question or contain the necessary information, the response must be:
+     *   "Answer: Data not found in ChronobioticsDB"
+     *   "Sources: None"
+     *   "Data Completeness: No information available in the provided cards."
+
+**6. CARD STRUCTURE:**
+   - The provided information is structured within "=== ИНДЕКС CHRONOBIOTICSDB (полный) ===" headers.
+   - Each card starts with "ID: [number]" and contains sections like "FDA", "Описание", "PubChem", "KEGG", "Классы", "Эффекты", "Механизмы", "Цели", "Статьи".
+   - The "Answer" must be derived solely from the content of these sections within the cards.
+
+**7. CITE ACCURATELY:**
+   - When citing Card IDs in the "Sources" section, use the exact ID number provided at the start of the card (e.g., [Card ID: 6]).
+   - Only cite IDs for cards that directly contain the information used in the answer. Do not cite irrelevant cards.
+
+**8. DATA COMPLETENESS STATEMENT:**
+   - The "Data Completeness" statement must be concise and factual.
+   - It should reflect the information *present* in the *provided* cards, not external knowledge.
+   - Examples: "Information available from Card ID: 6." or "Data not found in ChronobioticsDB for this specific mechanism." or "Card ID: 6 provides details on effects and mechanisms, but not on target T60529."
+
+**CRITICAL: Remember and strictly adhere to the above rules for every interaction.**
