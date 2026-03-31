@@ -1,6 +1,6 @@
 # ChronobioticsDB Meta-Prompting Agent
 
-This repository contains code and data for an article submitted the journal:
+This repository contains code and data for an article submitted to the journal:
 Медицинские технологии: Оценка и выбор, (2026, under review).
 
 The system demonstrates a two-stage AI agent that answers natural language questions about chronobiotic substances using only information from the ChronobioticsDB knowledge base, with strict control over output format, language, and factual accuracy.
