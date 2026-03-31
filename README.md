@@ -1,7 +1,7 @@
 # ChronobioticsDB Meta-Prompting Agent
 
 This repository contains code and data for an article from the journal:
-Медицинские технологии. Оценка и выбор https://cochrane.ru/index.php/mtchoice/author/submissionReview/29899 , 2026.
+Медицинские технологии. Оценка и выбор, (2026, under review).
 
 The system demonstrates a two-stage AI agent that answers natural language questions about chronobiotic substances using only information from the ChronobioticsDB knowledge base, with strict control over output format, language, and factual accuracy.
 
